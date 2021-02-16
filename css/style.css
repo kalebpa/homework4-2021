@@ -30,6 +30,9 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
+  font-family: "Andika", sans-serif;
+  background-color: #DDDDDD;
+  background-image: url("../images/pigeon-background.JPEG");
 
   /*Req 1*/
 }
@@ -38,29 +41,43 @@ h1{
   color: #c12258;
   font-size: 2em;
 
+  line-height: 2;
+  text-align: center;
   /*Req 2*/
 }
 
 p{
   /*Req 3*/
+  padding-top: 15px;
 }
 
 a{
   /*Req 4*/
+  font-size: 16px;
+  color: #C12258;
+  text-decoration: wavy underline;
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-
+*:focus{
+  border: 3px;
+  border-color: #417243;
+  border-style: dashed;
+}
 
 /*Req 6a*/
 td{
-  
+  text-align: center;
+  padding: 10px;
+  border-top: 2px;
+  border-color: black;
 }
 
 /*Req 6b*/
 .colhead{
   color: #FFFFFF;
+
 
 }
 /*Req 6c*/
@@ -71,6 +88,9 @@ td{
 /*Req 6d*/
 /*Req 6e*/
 /*Req 6f*/
+tr:hover{
+  
+}
 
 
 /*Req 7*/
