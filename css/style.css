@@ -33,6 +33,7 @@ body{
   font-family: "Andika", sans-serif;
   background-color: #DDDDDD;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
 
   /*Req 1*/
 }
@@ -54,7 +55,7 @@ p{
 a{
   /*Req 4*/
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration: wavy underline;
 }
 
@@ -70,8 +71,7 @@ a{
 td{
   text-align: center;
   padding: 10px;
-  border-top: 2px;
-  border-color: black;
+  border-top: 2px solid black;
 }
 
 /*Req 6b*/
@@ -86,10 +86,9 @@ td{
 }
 /*Req 6c*/
 .rowhead{
-  border-right: black;
-  border-top: black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
   /* border-color: black; */
-  border-style: solid;
 }
 
 /*Req 6d*/
